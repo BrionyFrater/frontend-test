@@ -13,7 +13,7 @@ export default function Translator() {
 
     const handleTranslate = () => {
         setTranslating(true)
-        setTranslated("sdfhsfs ksjhfks fks dfkshkf skhfkfk skfksdhfjshd fksfsk djfksfkhjdkjhd kdk");
+        setTranslated("");
         setShowResult(true);
     };
 
@@ -90,7 +90,7 @@ export default function Translator() {
                                 className="bg-background border-2 border-text rounded-lg w-full text-center text-black font-medium"
                             >
                                 <div className="px-6 py-3 text-left">Translated</div>
-                                <hr className="w-full h-4" />
+                                <hr className="w-full h-[4px]" />
                                 <div className="text-left p-6">{translated}</div>
                             </motion.div>
                         )}
