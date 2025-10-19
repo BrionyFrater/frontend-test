@@ -24,9 +24,9 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: --font-sans Arial, Helvetica, sans-serif;
+  background: var(--primary);
+  color: var(--text);
+  font-family: var(--font-sans) Arial, Helvetica, sans-serif;
 }
 
 .dot-bg {
@@ -34,6 +34,6 @@ body {
   inset: 0;
   height: 100%;
   width: 100%;
-  background-image: radial-gradient(#f0dd076f 1px, transparent 1px);
+  background-image: radial-gradient(#f0dd07d0 1px, transparent 1px);
   background-size: 16px 16px;
 }
