@@ -37,3 +37,7 @@ body {
   background-image: radial-gradient(#f0dd07d0 1px, transparent 1px);
   background-size: 16px 16px;
 }
+
+.will-change-transform {
+  will-change: transform;
+}
